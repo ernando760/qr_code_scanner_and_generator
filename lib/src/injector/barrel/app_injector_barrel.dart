@@ -1,0 +1,16 @@
+export 'package:auto_injector/auto_injector.dart';
+export 'package:qr_code_scanner_and_generator/src/bar_code_scanner/controllers/code_scanner_controller.dart';
+export 'package:qr_code_scanner_and_generator/src/historic/controllers/historic_controller.dart';
+export 'package:qr_code_scanner_and_generator/src/bar_code_generator/controllers/qr_code_generator_bar_controller.dart';
+export 'package:qr_code_scanner_and_generator/src/home/controllers/bottom_navigation_bar_controller.dart';
+export 'package:qr_code_scanner_and_generator/src/shared/controllers/qr_code_image_controller.dart';
+export 'package:qr_code_scanner_and_generator/src/shared/data/db/i_database.dart';
+export 'package:qr_code_scanner_and_generator/src/shared/data/db/sqflite/sqflite_database_impl.dart';
+export 'package:qr_code_scanner_and_generator/src/historic/repositories/historic_repository_impl.dart';
+export 'package:qr_code_scanner_and_generator/src/historic/repositories/i_historic_repository.dart';
+export 'package:qr_code_scanner_and_generator/src/historic/services/historic_service_impl.dart';
+export 'package:qr_code_scanner_and_generator/src/historic/services/i_historic_service.dart';
+export 'package:qr_code_scanner_and_generator/src/shared/services/permissions_service/i_permission_service.dart';
+export 'package:qr_code_scanner_and_generator/src/shared/services/permissions_service/permission_service_impl.dart';
+export 'package:qr_code_scanner_and_generator/src/shared/services/qr_code_image_service/i_qr_code_image_service.dart';
+export 'package:qr_code_scanner_and_generator/src/shared/services/qr_code_image_service/qr_code_image_service_impl.dart';
